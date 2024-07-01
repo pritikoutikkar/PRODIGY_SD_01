@@ -10,7 +10,7 @@ function roundNumber(number){
 }
 
 
-/* Celcius to Fahrenheit and Kelvin */
+
 celsiusInput.addEventListener('input', function(){
     let cTemp = parseFloat(celsiusInput.value)
     let fTemp = (cTemp*(9/5)) + 32
